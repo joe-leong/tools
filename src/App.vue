@@ -1,17 +1,16 @@
 <template>
   <div id="app">
     <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
+    <date-com/>
   </div>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
+import dateCom from '@/components/date'
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    dateCom
   }
 }
 </script>
