@@ -1,0 +1,19 @@
+export default {
+    get:[
+        {
+            name:'getList',
+            url:'wewewewe',
+            query:['id']
+        }
+    ],
+    post:[
+        {
+            name:'testPost'
+        }
+    ],
+    delete:[
+        {
+            name:'testDelete'
+        }
+    ]
+}

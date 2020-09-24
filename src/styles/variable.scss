@@ -1,0 +1,9 @@
+$iconColor:green;
+$iconActiveColor:pink;
+$themeColor:red;
+
+:export{
+    themeColor:$themeColor;
+    iconColor:$iconColor;
+    iconActiveColor:$iconActiveColor
+}

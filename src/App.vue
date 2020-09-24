@@ -1,7 +1,7 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <date-com/>
+  <div id="app" >
+    <!-- <date-com/> -->
+    <media-icon></media-icon>
   </div>
 </template>
 
@@ -11,7 +11,17 @@ export default {
   name: 'App',
   components: {
     dateCom
-  }
+  },
+  mounted () {
+    this.$request({name:'getList',params:{id:'aaa'}}).then(res=>{
+      console.log(res);
+    })
+  },
+  data() {
+    return {
+      path: 'http://qgzyeswca.hn-bkt.clouddn.com/icon-online_focus.png'
+    }
+  },
 }
 </script>
 
